@@ -37,7 +37,12 @@ Maria has a USB drive with the DMG file, so we don't have to all download from t
 #### INSTALL
 
 Open the DMG file. This should bring up the JDK installer.
-Press "continue" to install Java.
+Press "continue" to install Java. Check the success of your installation by runnning in your terminal: 
+
+```
+$ java -version
+$ javac -version
+```
 
 
 #### ENVIRONMENT VARIABLES
