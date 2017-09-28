@@ -4,8 +4,7 @@
 To install Git, do GIT STEPS  
 To install Java, do JAVA STEPS  
 To install Gradle, do GRADLE STEPS  
-To install Travis CI, do RUBY STEPS then TRAVIS-CI STEPS  
-To install Python, do PYTHON STEPS  
+To install Travis CI, do RUBY STEPS then TRAVIS-CI STEPS   
 
 Students in CS111 should install Java, Git, Gradle, and Travis CI in that order. Other classes should install the relevant modules that are in use in that class.  
 
@@ -42,6 +41,7 @@ In the following steps, the defaults should be chosen unless you understand the 
 To test that this step was completed successfully, right-click on your desktop and select `Git Bash Here`. Then, in the terminal that appears, type `git --version`. If `git version 2.14.2.windows.1` is printed, you have completed this step. If not, ask for help.
 
 ### GRADLE STEPS
+##### DOWNLOAD
 Download [Gradle](https://gradle.org/releases/)  
 Select the most recent "binary-only" link. Currently that is under `v4.2` ([direct](https://services.gradle.org/distributions/gradle-4.2-bin.zip)).
 
@@ -54,7 +54,8 @@ Right-click on Start, then select "System", then in the upper left of the window
 To test that this step was completed successfully, open a command prompt (search `cmd`), and execute `gradle -version`. If `Gradle 4.2` is printed (perhaps after a few warning messages), you have completed this step. If not, ask for help.
 
 ### RUBY STEPS
+Download [RubyInstaller](https://rubyinstaller.org/downloads/)  
+Select the most recent version. Currently that is `2.4.2-2` ([direct](https://github.com/oneclick/rubyinstaller2/releases/download/rubyinstaller-2.4.2-2/rubyinstaller-2.4.2-2-x64.exe)).
+
 
 ### TRAVIS-CI STEPS
-
-### PYTHON STEPS
