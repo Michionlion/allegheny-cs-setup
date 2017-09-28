@@ -25,6 +25,8 @@ If this returns a version, uninstall Java by running the following commands:
 $ sudo rm -fr /Library/Internet\ Plug-Ins/JavaAppletPlugin.plugin 
 $ sudo rm -fr /Library/PreferencePanes/JavaControlPanel.prefPane 
 $ sudo rm -fr ~/Library/Application\ Support/Java
+$ cd /Library/Java/JavaVirtualMachines/
+$ rm -rf <ALL FILES>
 ```
 
 #### DOWNLOAD
