@@ -6,7 +6,6 @@ To install Java, do JAVA STEPS
 To install Gradle, do GRADLE STEPS  
 To install Travis CI, do RUBY STEPS then TRAVIS-CI STEPS  
 To install Python, do PYTHON STEPS  
-To install R, do R STEPS  
 
 Students in CS111 should install Java, Git, Gradle, and Travis CI in that order. Other classes should install the relevant modules that are in use in that class.  
 
@@ -51,5 +50,3 @@ To test that this step was completed successfully, right-click on your desktop a
 ### TRAVIS-CI STEPS
 
 ### PYTHON STEPS
-
-### R STEPS
