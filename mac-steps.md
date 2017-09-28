@@ -106,7 +106,7 @@ $ gem install travis -v 1.8.8 --no-rdoc --no-ri
 Change into a repository where Travis CI is being used and run:
 
 ```
-$ travis login --pro
+$ sudo travis login --pro
 ``` 
 
 Enter your GitHub credentials.
