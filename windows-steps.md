@@ -13,7 +13,7 @@ Students in CS111 should install Java, Git, Gradle, and Travis CI in that order.
 ### JAVA STEPS
 ##### DOWNLOAD
 Download [Java SE JDK 9](http://www.oracle.com/technetwork/java/javase/downloads/index.html)  
-Make sure to select the correct version for Windows.
+Make sure to select the correct version for Windows. JDK 8 may also be used - make sure to change the relevant directories in the following steps.
 
 ##### INSTALL
 Execute the exe file that was downloaded previously, and click through the options. You can choose all defaults, or customize it to your liking - be sure to remember any directory changes for the next step!
@@ -22,7 +22,7 @@ To test that this step was completed successfully, open a command prompt (search
 
 
 ##### ENVIRONMENT VARIABLES
-Right-click on Start, then select "System", then in the upper left of the window that appears select System info. In the window that appears, select Advanced system settings. In the window that appears choose "Environment Variables" on the bottom right. In the window that appears, click "New" below the bottom scroll box. Enter JAVA_HOME as the variable name, and browse to where the java jdk was installed (default: `C:\Program Files\Java\jdk-9`). Select OK. Now find the entry with Variable name "Path" in the lower scroll box. Select it, and press "Edit". Click "New", and write `%JAVA_HOME%\bin`. Select OK until the windows close.
+Right-click on Start, then select "System", then in the upper left of the window that appears select System info (You can also hit the windows key and PAUSE). In the window that appears, select Advanced system settings. In the window that appears choose "Environment Variables" on the bottom right. In the window that appears, click "New" below the bottom scroll box. Enter JAVA_HOME as the variable name, and browse to where the Java JDK was installed (default: `C:\Program Files\Java\jdk-9`). Select OK. Now find the entry with Variable name "Path" in the lower scroll box. Select it, and press "Edit". Click "New", and write `%JAVA_HOME%\bin`. Select OK until the windows close.
 
 To test that this step was completed successfully, open a command prompt (search `cmd`), and execute `javac -version`. If `javac 9` is printed, you have completed this step. If not, ask for help.
 
@@ -42,8 +42,16 @@ In the following steps, the defaults should be chosen unless you understand the 
 To test that this step was completed successfully, right-click on your desktop and select `Git Bash Here`. Then, in the terminal that appears, type `git --version`. If `git version 2.14.2.windows.1` is printed, you have completed this step. If not, ask for help.
 
 ### GRADLE STEPS
+Download [Gradle](https://gradle.org/releases/)  
+Select the most recent "binary-only" link. Currently that is under `v4.2` ([direct](https://services.gradle.org/distributions/gradle-4.2-bin.zip)).
 
+##### INSTALL
+Right-click the zip that you previously downloaded, and select "Extract All". Browse to `C:\Program Files`, and extract. This should create a folder named `gradle-4.2` in your Program Files directory.
 
+##### ENVIRONMENT VARIABLES
+Right-click on Start, then select "System", then in the upper left of the window that appears select System info (You can also hit the windows key and PAUSE). In the window that appears, select Advanced system settings. In the window that appears choose "Environment Variables" on the bottom right. In the window that appears, click "New" below the bottom scroll box. Enter GRADLE_HOME as the variable name, and browse to where the `gradle-4.2` folder was created (with the above steps: `C:\Program Files\gradle-4.2`). Select OK. Now find the entry with Variable name "Path" in the lower scroll box. Select it, and press "Edit". Click "New", and write `%GRADLE_HOME%\bin`. Select OK until the windows close.
+
+To test that this step was completed successfully, open a command prompt (search `cmd`), and execute `gradle -version`. If `Gradle 4.2` is printed (perhaps after a few warning messages), you have completed this step. If not, ask for help.
 
 ### RUBY STEPS
 
