@@ -42,10 +42,10 @@ To test that this step was completed successfully, right-click on your desktop a
 ##### SSH Key
 You'll need to generate an SSH key so that you are able to access Bitbucket and/or Github. To generate the key, simply run `$ ssh-keygen` in a "Git Bash Here" command prompt window. Hit `ENTER` to take all the defaults, until the prompt finishes. Now, run `cat ~/.ssh/id_rsa.pub | clip`: this command will copy your SSH key to your clipboard. Then, you can navigate to the SSH Key entry on the website you are using (directions below), and paste the key into the provided text box.
 
-*Bitbucket*
+**Bitbucket**  
 Click on your profile icon in the lower left, and select "Bitbucket settings". On the left sidebar, select "SSH keys". Click on "Add key".
 
-*Github*
+**Github**  
 Click on your profile icon in the upper right, then select "Settings". On the left sidebar, select "SSH and GPG keys". Click on "New SSH key".
 
 
