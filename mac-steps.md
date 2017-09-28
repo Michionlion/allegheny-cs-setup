@@ -89,15 +89,6 @@ Run the follow command:
 $ brew install gradle
 ```
 
-## RUBY STEPS
-
-#### INSTALL
-
-Run the follow command: 
-```
-$ brew install ruby
-```
-
 ## TRAVIS-CI STEPS
 
 #### INSTALL
