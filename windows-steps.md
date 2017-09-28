@@ -13,6 +13,7 @@ Students in CS111 should install Java, Git, Gradle, and Travis CI in that order.
 ### JAVA STEPS
 ##### DOWNLOAD
 Download [Java SE JDK 9](http://www.oracle.com/technetwork/java/javase/downloads/index.html)
+
 Make sure to select the correct version for Windows.
 
 ##### INSTALL
