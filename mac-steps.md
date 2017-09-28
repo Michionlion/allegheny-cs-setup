@@ -1,13 +1,7 @@
 # Software Installation Guide for Windows
 ## Department of Computer Science, Allegheny College
 
-To install Homebrew, do BREW STEPS
-To install Git, do GIT STEPS
-To install Java, do JAVA STEPS
-To install Gradle, do GRADLE STEPS
-To install Travis CI, do RUBY STEPS then TRAVIS-CI STEPS
-
-Students in CS111 should install Java, Git, Gradle, and Travis CI in that order. Other classes should install the relevant modules that are in use in that class.
+Students in CS 111 with macOS should install Homebrew, Java, Git, Gradle, and Travis CI in that order. Other classes should install the relevant modules that are in use in that class.
 
 ### BREW STEPS
 
@@ -61,23 +55,60 @@ export JAVA_HOME="$(/usr/libexec/java_home -v 9)"
 ### GIT STEPS
 
 ##### INSTALL
-Execute the exe file that was downloaded previously.
-Ensure that you select `Git Bash Here`, `Git LFS (Large File Support)`, and both options starting with `Associate`. Other options are optional.
 
-In the next step, choose either `Use Git from Git Bash only` or `Use Git from Windows Command Prompt`. These do exactly as they say.
+Run the follow command: 
+```
+$ brew install git
+```
 
-In the following steps, the defaults should be chosen unless you understand the implications.
+##### USAGE
 
-To test that this step was completed successfully, right-click on your desktop and select `Git Bash Here`. Then, in the terminal that appears, type `git --version`. If `git version 2.14.2.windows.1` is printed, you have completed this step. If not, ask for help.
+###### SSH
+You will need to set up a SSH key on your laptop. To do this, run the command:
+
+```
+$ ssh-keygen -t rsa
+```
+
+Press enter when prompted to enter the file in which to save the key. Press enter twice more when it says to enter a passphrase.
+
+Then, run the command `$ cat /Users/<YOUR USERNAME/.ssh/id_rsa.pub`. This should display your public SSH key. Copy to your clipboard from the `ssh-rsa` to the last letter of the long string of random letters. Go to `github.com` and navigate to (upper right hand corner) `Settings > SSH and GPG keys` and press the `New SSH key` button. Give your new SSH key a cool title (e.g. "Maria's Macbook") and paste from your clipboard the SSH key you just copied. Then, press `Add SSH key`.
+
+###### ACCESSING A REPOSITORY
+
+To clone a repository, go to the repository's page and press `Clone or download`. In the "Clone with SSH" option, copy the repository URL to your clip board. Then, open a terminal and change into the directory you want to store your repository in. Type the following command `$ git clone <GITHUB REPOSITORY URL HERE>`. Now, you can change into the repository and do your usual `git add`, `git commit` and `git push` commands. 
 
 ### GRADLE STEPS
 
+##### INSTALL
 
+Run the follow command: 
+```
+$ brew install gradle
+```
 
 ### RUBY STEPS
 
+##### INSTALL
+
+Run the follow command: 
+```
+$ brew install ruby
+```
+
 ### TRAVIS-CI STEPS
 
-### PYTHON STEPS
+##### INSTALL
 
-### R STEPS
+Run the follow command: 
+```
+$ gem install travis -v 1.8.8 --no-rdoc --no-ri
+```
+
+Change into a repository where Travis CI is being used and run:
+
+```
+travis login --pro
+``` 
+
+Enter your GitHub credentials.
