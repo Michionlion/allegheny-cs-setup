@@ -1,4 +1,4 @@
-# Software Installation Guide for Windows
+# Software Installation Guide for macOS
 ## Department of Computer Science, Allegheny College
 
 Students in CS 111 with macOS should install Homebrew, Java, Git, Gradle, and Travis CI in that order. Other classes should install the relevant modules that are in use in that class.
