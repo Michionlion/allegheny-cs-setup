@@ -110,3 +110,11 @@ $ sudo travis login --pro
 ``` 
 
 Enter your GitHub credentials.
+
+## Fin
+
+There you go! You are now all set to use your Mac to work on your class assignments. If you get an error when you're trying to use these tools, first try Googling the error. Chances are you're not the first person to encounter the issue and someone has already asked how to solve it on StackOverflow or GitHub issue tracker. If you're still stuck, feel free to send Saejin or me a message on Slack, or email us at our school emails if we're not part of any of your Slack teams.
+
+Good luck, and KCCO (Keep Calm and Computer On)!
+
+
