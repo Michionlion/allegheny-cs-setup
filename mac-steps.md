@@ -113,6 +113,10 @@ Enter your GitHub credentials.
 
 ## Fin
 
+At this point, you should be able to clone git repositories. To actually write code, I recommend downloading [Atom](https://atom.io/) or [Sublime Text](https://www.sublimetext.com/)--these are text editors, just like GVim. For CMPSC 111 and 112, Atom should suffice. Sublime is a little bit faster than Atom in my experience, but you only notice this when you open up huge projects. And though Sublime is free, you have to pay $80 to avoid seeing a "Thanks for enjoying Sublime. Consider purchasing it." dialog every 20 saves (although you should really consider supporting the creators of Sublime because it's an awesome tool).
+
+You can also use Vim in your terminal; to open a file, you type the command `$ vim <name of file>`. To start editing, you press the `i` key, and to save your work and close Vim, you press `ESCAPE` and then type `:wq` ("write" and "quit"). 
+
 There you go! You are now all set to use your Mac to work on your class assignments. If you get an error when you're trying to use these tools, first try Googling the error. Chances are you're not the first person to encounter the issue and someone has already asked how to solve it on StackOverflow or GitHub issue tracker. If you're still stuck, feel free to send Saejin or me a message on Slack, or email us at our school emails if we're not part of any of your Slack teams.
 
 Good luck, and KCCO (Keep Calm and Computer On)!
