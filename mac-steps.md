@@ -111,6 +111,18 @@ $ sudo travis login --pro
 
 Enter your GitHub credentials.
 
+## GNU-GETOPT Steps
+
+To run GatorGrader correctly on Macs, you will need to install the package, gnu-getopt.
+
+#### INSTALL
+
+Run the follow commands: 
+```
+$ brew install gnu-getopt
+$ brew link --force gnu-getopt
+``` 
+
 ## Fin
 
 At this point, you should be able to clone git repositories. To actually write code, I recommend downloading [Atom](https://atom.io/) or [Sublime Text](https://www.sublimetext.com/)--these are text editors, just like GVim. For CMPSC 111 and 112, Atom should suffice. Sublime is a little bit faster than Atom in my experience, but you only notice this when you open up huge projects. And though Sublime is free, you have to pay $80 to avoid seeing a "Thanks for enjoying Sublime. Consider purchasing it." dialog every 20 saves (although you should really consider supporting the creators of Sublime because it's an awesome tool).
