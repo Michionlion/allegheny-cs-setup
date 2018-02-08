@@ -54,7 +54,7 @@ Click on your profile icon in the upper right, then select "Settings". On the le
 ## GRADLE STEPS
 #### DOWNLOAD
 Download [Gradle](https://gradle.org/releases/)  
-Select the most recent "binary-only" link. Currently that is under `v4.2` ([direct](https://services.gradle.org/distributions/gradle-4.2-bin.zip)).
+Select the most recent "binary-only" link. Currently that is under `v4.5.1` ([direct](https://services.gradle.org/distributions/gradle-4.5.1-bin.zip?_ga=2.52152425.1188320942.1518130805-15040205.1517342238)).
 
 #### INSTALL
 Right-click the zip that you previously downloaded, and select "Extract All". Browse to `C:\Program Files`, and extract. This should create a folder named `gradle-4.2` in your Program Files directory.
