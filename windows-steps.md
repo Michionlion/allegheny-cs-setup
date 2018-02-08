@@ -3,10 +3,12 @@
 
 To install Git, do GIT STEPS  
 To install Java, do JAVA STEPS  
-To install Gradle, do GRADLE STEPS  
-To install Travis CI, do RUBY STEPS then TRAVIS-CI STEPS   
+To install Gradle, do GRADLE STEPS
+To install Python, do PYTHON STEPS
+To install Travis CI, do RUBY STEPS then TRAVIS-CI STEPS
+To install GatorGrader, do GIT STEPS then JAVA STEPS then PYTHON STEPS then GRADLE STEPS then RUBY STEPS then GATORGRADER STEPS
 
-Students in CS111 should install Java, Git, Gradle, and Travis CI in that order. Other classes should install the relevant modules that are in use in that class.  
+Students in CS111 should install Git, Java, and GatorGrader in that order. Other classes should install the relevant modules that are in use in that class.  
 
 
 ## JAVA STEPS
@@ -74,6 +76,23 @@ After the installation completes, a command prompt window will open, with option
 
 To test that this step was completed successfully, open a command prompt (search `cmd`), and execute `$ ruby -v`. If `ruby 2.4.2p198 (2017-09-14 revision 59899) [x64-mingw32]` is printed, you have completed this step. If not, ask for help.
 
+## PYTHON STEPS
+
+#### DOWNLOAD
+https://www.python.org/ftp/python/3.6.4/python-3.6.4-webinstall.exe
+
+
+#### INSTALL
+Select change PATH environment variable
+
+
+## GATORGRADER STEPS
+
+#### INSTALL
+Execute `$ gem install mdl` in a command prompt or terminal window.
+Execute `$ pip3 install proselint` in a command prompt or terminal window.
+
+
 ## TRAVIS-CI STEPS
 
 #### INSTALL
@@ -82,3 +101,4 @@ Execute `$ gem install travis -v 1.8.8 --no-rdoc --no-ri` in a command prompt or
 Any Travis CI setup specific to classes should be done after all installations are verified complete (refer to your first practical if you're looking for this, or ask Professor Kapfhammer).
 
 To test that this step was completed successfully, open a command prompt (search `cmd`), and execute `$ travis version`. If `1.8.8` is printed, you have completed this step. If not, ask for help.
+[
