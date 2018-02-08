@@ -3,10 +3,10 @@
 
 To install Git, do GIT STEPS  
 To install Java, do JAVA STEPS  
-To install Gradle, do GRADLE STEPS
-To install Python, do PYTHON STEPS
-To install Travis CI, do RUBY STEPS then TRAVIS-CI STEPS
-To install GatorGrader, do GIT STEPS then JAVA STEPS then PYTHON STEPS then GRADLE STEPS then RUBY STEPS then GATORGRADER STEPS
+To install Gradle, do GRADLE STEPS  
+To install Python, do PYTHON STEPS  
+To install Travis CI, do RUBY STEPS then TRAVIS-CI STEPS  
+To install GatorGrader, do GIT STEPS then JAVA STEPS then PYTHON STEPS then GRADLE STEPS then RUBY STEPS then GATORGRADER STEPS  
 
 Students in CS111 should install Git, Java, and GatorGrader in that order. Other classes should install the relevant modules that are in use in that class.  
 
