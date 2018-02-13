@@ -55,12 +55,12 @@ Download [Gradle](https://gradle.org/releases/)
 Select the most recent "binary-only" link. Currently that is under `v4.5.1` ([direct](https://services.gradle.org/distributions/gradle-4.5.1-bin.zip?_ga=2.52152425.1188320942.1518130805-15040205.1517342238)).
 
 #### INSTALL
-Right-click the zip that you previously downloaded, and select "Extract All". Browse to `C:\Program Files`, and extract. This should create a folder named `gradle-4.2` in your Program Files directory.
+Right-click the zip that you previously downloaded, and select "Extract All". Browse to `C:\Program Files`, and extract. This should create a folder named `gradle-4.5.1` in your Program Files directory.
 
 #### ENVIRONMENT VARIABLES
-Right-click on Start, then select "System", then in the upper left of the window that appears select System info (You can also hit the windows key and PAUSE). In the window that appears, select Advanced system settings. In the window that appears choose "Environment Variables" on the bottom right. In the window that appears, click "New" below the bottom scroll box. Enter GRADLE_HOME as the variable name, and browse to where the `gradle-4.2` folder was created (with the above steps: `C:\Program Files\gradle-4.2`). Select OK. Now find the entry with Variable name "Path" in the lower scroll box. Select it, and press "Edit". Click "New", and write `%GRADLE_HOME%\bin`. Select OK until the windows close.
+Right-click on Start, then select "System", then in the upper left of the window that appears select System info (You can also hit the windows key and PAUSE). In the window that appears, select Advanced system settings. In the window that appears choose "Environment Variables" on the bottom right. In the window that appears, click "New" below the bottom scroll box. Enter GRADLE_HOME as the variable name, and browse to where the `gradle-4.5.1` folder was created (with the above steps: `C:\Program Files\gradle-4.5.1`). Select OK. Now find the entry with Variable name "Path" in the lower scroll box. Select it, and press "Edit". Click "New", and write `%GRADLE_HOME%\bin`. Select OK until the windows close.
 
-To test that this step was completed successfully, open a command prompt (search `cmd`), and execute `$ gradle -version`. If `Gradle 4.2` is printed (perhaps after a few warning messages), you have completed this step. If not, ask for help.
+To test that this step was completed successfully, open a command prompt (search `cmd`), and execute `$ gradle -version`. If `Gradle 4.5.1` is printed (perhaps after a few warning messages), you have completed this step. If not, ask for help.
 
 ## RUBY STEPS
 #### DOWNLOAD
