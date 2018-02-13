@@ -4,11 +4,9 @@
 To install Git, do GIT STEPS  
 To install Java, do JAVA STEPS  
 To install Gradle, do GRADLE STEPS  
-To install Python, do PYTHON STEPS  
 To install Travis CI, do RUBY STEPS then TRAVIS-CI STEPS  
-To install GatorGrader, do GIT STEPS then JAVA STEPS then PYTHON STEPS then GRADLE STEPS then RUBY STEPS then GATORGRADER STEPS  
 
-Students in CS111 should install Git, Java, and GatorGrader in that order. Other classes should install the relevant modules that are in use in that class.  
+Students in CS111 should install Git, Java, and Gradle in that order. Other classes should install the relevant modules that are in use in that class.  
 
 
 ## JAVA STEPS
@@ -23,7 +21,7 @@ To test that this step was completed successfully, open a command prompt (search
 
 
 #### ENVIRONMENT VARIABLES
-Right-click on Start, then select "System", then in the upper left of the window that appears select System info (You can also hit the windows key and PAUSE). In the window that appears, select Advanced system settings. In the window that appears choose "Environment Variables" on the bottom right. In the window that appears, click "New" below the bottom scroll box. Enter JAVA_HOME as the variable name, and browse to where the Java JDK was installed (default: `C:\Program Files\Java\jdk-9`). Select OK. Now find the entry with Variable name "Path" in the lower scroll box. Select it, and press "Edit". Click "New", and write `%JAVA_HOME%\bin`. Select OK until the windows close.
+Right-click on Start, then select "System", then in the upper left of the window that appears select System info (You can also hit the windows key and PAUSE). In the window that appears, select Advanced system settings. In the window that appears choose "Environment Variables" on the bottom right. You can also try searching for "environment". In the window that appears, click "New" below the bottom scroll box. Enter JAVA_HOME as the variable name, and browse to where the Java JDK was installed (default: `C:\Program Files\Java\jdk-9`). Select OK. Now find the entry with Variable name "Path" in the lower scroll box. Select it, and press "Edit". Click "New", and write `%JAVA_HOME%\bin`. Select OK until the windows close.
 
 To test that this step was completed successfully, open a command prompt (search `cmd`), and execute `$ javac -version`. If `javac 9` is printed, you have completed this step. If not, ask for help.
 
@@ -75,23 +73,6 @@ Execute the exe file you downloaded previously, and choose the default options. 
 After the installation completes, a command prompt window will open, with options `1, 2, 3`. Do not enter any numbers, just hit `ENTER`. Take the defaults in the MSYS2 installation window that appears. Then once that finishes, let the command prompt finish all the installations. Another prompt will appear afterwards, asking if you want to install anything else. If everything completed successfully, simply hitting `ENTER` will close the prompt.
 
 To test that this step was completed successfully, open a command prompt (search `cmd`), and execute `$ ruby -v`. If `ruby 2.4.2p198 (2017-09-14 revision 59899) [x64-mingw32]` is printed, you have completed this step. If not, ask for help.
-
-## PYTHON STEPS
-
-#### DOWNLOAD
-https://www.python.org/ftp/python/3.6.4/python-3.6.4-webinstall.exe
-
-
-#### INSTALL
-Select change PATH environment variable
-
-
-## GATORGRADER STEPS
-
-#### INSTALL
-Execute `$ gem install mdl` in a command prompt or terminal window.
-Execute `$ pip3 install proselint` in a command prompt or terminal window.
-
 
 ## TRAVIS-CI STEPS
 
