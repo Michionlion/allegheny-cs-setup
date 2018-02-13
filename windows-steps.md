@@ -79,7 +79,14 @@ To test that this step was completed successfully, open a command prompt (search
 #### INSTALL
 Execute `$ gem install travis -v 1.8.8 --no-rdoc --no-ri` in a command prompt or terminal window.
 
-Any Travis CI setup specific to classes should be done after all installations are verified complete (refer to your first practical if you're looking for this, or ask Professor Kapfhammer).
+Any Travis CI setup specific to classes should be done after all installations are verified complete (refer to your first practical if you're looking for this, or ask Professor Kapfhammer). To test that this step was completed successfully, open a command prompt (search `cmd`), and execute `$ travis version`. If `1.8.8` is printed, you have completed this step. If not, ask for help.
 
-To test that this step was completed successfully, open a command prompt (search `cmd`), and execute `$ travis version`. If `1.8.8` is printed, you have completed this step. If not, ask for help.
-[
+## ADVANCED SETUP
+
+For any users who want to make the most out of their windows install, you can use the internet to figure out how to install or use the following tools.
+
+* [Windows WSL](https://docs.microsoft.com/en-us/windows/wsl/install-win10), a bash terminal (command-line only) for windows
+* [Cmder](http://cmder.net/), a terminal emulator to make `git bash` and `cmd` work better together; highly configurable
+* [VSCode](https://code.visualstudio.com/), a text/code editor similar to `atom` (`atom` doesn't work well on windows, but you can [try](https://atom.io/) it)
+* [Chocolatey](https://chocolatey.org/), a package manager for windows (like `aptitude` on Ubuntu) 
+* [Dual Boot Ubuntu](https://www.lifewire.com/ultimate-windows-8-1-ubuntu-dual-boot-guide-2200654), you're going to want Ubuntu 17.10, or any other flavor of Linux - research before you start!
