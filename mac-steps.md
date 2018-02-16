@@ -56,7 +56,7 @@ $ brew install gradle
 
 Run the follow command: 
 ```
-$ gem install travis -v 1.8.8 --no-rdoc --no-ri
+$ sudo gem install travis -v 1.8.8 --no-rdoc --no-ri
 ```
 
 Change into a repository where Travis CI is being used and run:
