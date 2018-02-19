@@ -1,0 +1,11 @@
+# install mdl for checking Markdown
+before_install:
+    - gem install mdl
+
+# perform testing:
+# --> perform linting with
+#     --> Markdown: mdl
+script:
+    - mdl README.md
+    - mdl mac-steps.md
+    - mdl windows-steps.md
