@@ -29,6 +29,7 @@ $ brew install git
 #### USAGE
 
 ##### SSH
+
 You will need to set up a SSH key on your laptop. The following comes from [Github's official guide on SSH keys](https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/). Start by running the command:
 
 ```
@@ -67,7 +68,7 @@ Change into a repository where Travis CI is being used and run:
 
 ```
 $ sudo travis login --pro
-``` 
+```
 
 Enter your GitHub credentials.
 
