@@ -72,11 +72,11 @@ $ ssh-keygen -t rsa -b 4096 -C "your_email_used_to_create_website_account@exampl
 
 Hit `ENTER` three times to take all the defaults. Now, run `cat ~/.ssh/id_rsa.pub`: this command will show your SSH key in the terminal; copy everything from the beginning `ssh-rsa` to the end, including your username and machine name (which looks like `username@machine`). Then, you can navigate to the SSH Key entry on the website you are using (directions below), and paste the key into the provided text box.
 
-###### Bitbucket
+##### Bitbucket
 
 Click on your profile icon in the lower left, and select "Bitbucket settings". On the left sidebar, select "SSH keys". Click on "Add key".
 
-###### Github
+##### Github
 
 Click on your profile icon in the upper right, then select "Settings". On the left sidebar, select "SSH and GPG keys". Click on "New SSH key".
 
