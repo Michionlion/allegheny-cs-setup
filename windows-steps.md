@@ -26,7 +26,6 @@ Execute the exe file that was downloaded previously, and click through the optio
 
 To test that this step was completed successfully, open a command prompt (search `cmd`), and execute `$ java --version`. If `java version "9"` is printed (perhaps along with some other stuff), you have completed this step. If not, ask for help.
 
-
 #### ENVIRONMENT VARIABLES
 
 Right-click on Start, then select "System", then in the upper left of the window that appears select System info (You can also hit the windows key and PAUSE). In the window that appears, select Advanced system settings. In the window that appears choose "Environment Variables" on the bottom right. You can also try searching for "environment". In the window that appears, click "New" below the
@@ -38,6 +37,7 @@ To test that this step was completed successfully, open a command prompt (search
 ### NOTEPAD++ STEPS
 
 #### DOWNLOAD
+
 Download [Notepad++](https://notepad-plus-plus.org/download/v7.5.4.html)
 
 You'll likely want either the 32-bit or 64-bit installers. If you don't know which that is, download the [32-bit N++ 7.5.4 Installer](https://notepad-plus-plus.org/repository/7.x/7.5.4/npp.7.5.4.Installer.exe).
@@ -65,17 +65,20 @@ To test that this step was completed successfully, right-click on your desktop a
 #### SSH Key
 
 You'll need to generate an SSH key so that you are able to access Bitbucket and/or Github. To generate the key, first run the following command in a "Git Bash Here" command prompt window.
+
 ```
 $ ssh-keygen -t rsa -b 4096 -C "your_email_used_to_create_website_account@example.com"
 ```
+
 Hit `ENTER` three times to take all the defaults. Now, run `cat ~/.ssh/id_rsa.pub`: this command will show your SSH key in the terminal; copy everything from the beginning `ssh-rsa` to the end, including your username and machine name (which looks like `username@machine`). Then, you can navigate to the SSH Key entry on the website you are using (directions below), and paste the key into the provided text box.
 
-*Bitbucket*  
+*Bitbucket*
+
 Click on your profile icon in the lower left, and select "Bitbucket settings". On the left sidebar, select "SSH keys". Click on "Add key".
 
-*Github*  
-Click on your profile icon in the upper right, then select "Settings". On the left sidebar, select "SSH and GPG keys". Click on "New SSH key".
+*Github*
 
+Click on your profile icon in the upper right, then select "Settings". On the left sidebar, select "SSH and GPG keys". Click on "New SSH key".
 
 ### GRADLE STEPS
 
@@ -102,5 +105,5 @@ For any users who want to make the most out of their windows install, you can us
 * [Windows WSL](https://docs.microsoft.com/en-us/windows/wsl/install-win10), a bash terminal (command-line only) for windows
 * [Cmder](http://cmder.net/), a terminal emulator to make `git bash` and `cmd` work better together; highly configurable
 * [VSCode](https://code.visualstudio.com/), a text/code editor similar to `atom` (`atom` doesn't work well on windows, but you can [try](https://atom.io/) it)
-* [Chocolatey](https://chocolatey.org/), a package manager for windows (like `aptitude` on Ubuntu) 
+* [Chocolatey](https://chocolatey.org/), a package manager for windows (like `aptitude` on Ubuntu)
 * [Dual Boot Ubuntu](https://www.lifewire.com/ultimate-windows-8-1-ubuntu-dual-boot-guide-2200654), we recommend Ubuntu 17.10, but any other flavor of Linux works - research before you start, and feel free to ask any questions!
