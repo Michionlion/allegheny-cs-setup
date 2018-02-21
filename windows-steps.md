@@ -60,11 +60,15 @@ Click next, then select Notepad++ as your editor (or a different option if you d
 
 In the following two steps, the defaults should be chosen unless you understand the implications. Then, you should select the `Use Windows' default console window` unless you're familiar with `MinTTY`. Then continue, selecting the defaults again, until setup completes.
 
-To test that this step was completed successfully, right-click on your desktop and select `Git Bash Here`. Then, in the terminal that appears, type `$ git --version`. If `git version 2.14.2.windows.1` is printed, you have completed this step. If not, ask for help.
+To test that this step was completed successfully, right-click on your desktop and select `Git Bash Here`. Then, in the terminal that appears, type `$ git --version`. If `git version` followed by some version number is printed, you have completed this step. If not, ask for help.
 
 #### SSH Key
 
-You'll need to generate an SSH key so that you are able to access Bitbucket and/or Github. To generate the key, simply run `$ ssh-keygen` in a "Git Bash Here" command prompt window. Hit `ENTER` to take all the defaults, until the prompt finishes. Now, run `cat ~/.ssh/id_rsa.pub`: this command will show your SSH key in the terminal; copy everything from the beginning `ssh-` to the end, including your username and machine name (which looks like `username@machine`). Then, you can navigate to the SSH Key entry on the website you are using (directions below), and paste the key into the provided text box.
+You'll need to generate an SSH key so that you are able to access Bitbucket and/or Github. To generate the key, first run the following command in a "Git Bash Here" command prompt window.
+```
+$ ssh-keygen -t rsa -b 4096 -C "your_email_used_to_create_website_account@example.com"
+```
+Hit `ENTER` three times to take all the defaults. Now, run `cat ~/.ssh/id_rsa.pub`: this command will show your SSH key in the terminal; copy everything from the beginning `ssh-rsa` to the end, including your username and machine name (which looks like `username@machine`). Then, you can navigate to the SSH Key entry on the website you are using (directions below), and paste the key into the provided text box.
 
 *Bitbucket*  
 Click on your profile icon in the lower left, and select "Bitbucket settings". On the left sidebar, select "SSH keys". Click on "Add key".
@@ -89,7 +93,7 @@ Right-click the zip that you previously downloaded, and select "Extract All". Br
 
 Right-click on Start, then select "System", then in the upper left of the window that appears select System info (You can also hit the windows key and PAUSE). In the window that appears, select Advanced system settings. In the window that appears choose "Environment Variables" on the bottom right. In the window that appears, click "New" below the bottom scroll box. Enter GRADLE_HOME as the variable name, and browse to where the `gradle-4.5.1` folder was created (with the above steps: `C:\Program Files\gradle-4.5.1`). Select OK. Now find the entry with Variable name "Path" in the lower scroll box. Select it, and press "Edit". Click "New", and write `%GRADLE_HOME%\bin`. Select OK until the windows close.
 
-To test that this step was completed successfully, open a command prompt (search `cmd`), and execute `$ gradle -version`. If `Gradle 4.5.1` is printed (perhaps after a few warning messages), you have completed this step. If not, ask for help.
+To test that this step was completed successfully, open a command prompt (search `cmd`), and execute `$ gradle --version`. If `Gradle 4.5.1` is printed (perhaps after a few warning messages), you have completed this step. If not, ask for help.
 
 ### ADVANCED SETUP
 
