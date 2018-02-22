@@ -97,8 +97,8 @@ $ echo -e 'eval "$(pyenv init -)"\n' >> ~/.bash_profile
 Now you should restart your terminal window, and run the following commands:
 
 ```
-$ pyenv install 3.5
-$ pyenv global 3.5
+$ pyenv install 3.5.4
+$ pyenv global 3.5.4
 $ brew install gnu-getopt
 $ brew link --force gnu-getopt
 $ pip install proselint
