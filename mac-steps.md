@@ -7,7 +7,7 @@ Please follow the installation instructions for the tools listed under **Everyon
 **Everyone**
 - [Homebrew](#homebrew)
 - [Git](#git)
-- [GatorGrader](#gatorgrader)
+- [GatorGrader dependencies](#gatorgrader)
 - A text editor of your choice (I recommend [Atom](https://atom.io/))
 
 **CMPSC 111 and CMPSC 112**
@@ -87,7 +87,7 @@ $ brew install gradle
 
 Then test if it was installed correctly by running `$ gradle --version`. If `Gradle 4.5.1` is printed (perhaps after a few warning messages about Java), you have completed this step. If not, ask for help.
 
-### GatorGrader<a name="gatorgrader"></a> (dependencies)
+### GatorGrader dependencies<a name="gatorgrader"></a>
 
 To run GatorGrader on MacOS, you will need to install Python, gnu-getopt, mdl, and proselint.
 
