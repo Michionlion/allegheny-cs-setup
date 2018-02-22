@@ -5,7 +5,7 @@
 Please follow the installation instructions for the tools listed under **Everyone** and your specific computer science course. Make sure to install the tools in the order they are listed.
 
 **Everyone**
-- [Git](#GIT-STEPS)
+- [Git](#git-steps)
 - A text editor of your choice (I recommend [Notepad++](#notepad-steps))
 
 **CMPSC 111 and CMPSC 112**
