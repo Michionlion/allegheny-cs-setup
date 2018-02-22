@@ -14,6 +14,8 @@ To install `GatorGrader`, do `JAVA STEPS`, then `GRADLE STEPS`, then `GATORGRADE
 
 Students in CS 111 with macOS should install Homebrew, Git, Java, Gradle, and GatorGrader in that order. Other classes should install the relevant modules that are in use in that class. You will almost always want to install Homebrew.
 
+Do not repeat a step if you have already completed it!
+
 ### HOMEBREW STEPS
 
 Homebrew is a package manager for macOS. It helps you download programs, such as Gradle, or Ruby.
