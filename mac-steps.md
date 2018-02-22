@@ -59,7 +59,7 @@ To clone a repository, go to the repository's page and press `Clone or download`
 
 ### JAVA STEPS
 
-You should only do these steps if you do not already have Java installed. To see if Java is installed, run `javac --version` in a terminal. If `java version x` is displayed, where `x` starts with `8`, `1.8`, or any higher version, then you do no need to complete the Java steps, as you already have a JDK installed.
+You should only do these steps if you do not already have Java installed. To see if Java is installed, run `javac -version` in a terminal. If `java version x` is displayed, where `x` starts with `8`, `1.8`, or any higher version, then you do no need to complete the Java steps, as you already have a JDK installed.
 
 #### INSTALL
 
