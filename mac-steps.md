@@ -79,6 +79,7 @@ Run the following command:
 ```
 $ brew install gradle
 ```
+Then test if it was installed correctly by running `$ gradle --version`. If `Gradle 4.5.1` is printed (perhaps after a few warning messages about Java), you have completed this step. If not, ask for help.
 
 ### GATORGRADER Steps
 
