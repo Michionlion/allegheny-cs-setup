@@ -22,7 +22,7 @@ Please follow the installation instructions for the tools listed under **Everyon
 
 Do not repeat a step if you have already completed it!
 
-### Homebrew<a name="homebrew"></a>
+### Homebrew
 
 Homebrew is a package manager for macOS. It helps you download programs, such as Gradle, or Ruby.
 
@@ -35,7 +35,7 @@ $ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/inst
 $ brew update
 ```
 
-### Git<a name="git"></a>
+### Git
 
 #### Install
 
@@ -63,7 +63,7 @@ Then, run the command `$ cat ~/.ssh/id_rsa.pub`. This should display your public
 
 To clone a repository, go to the repository's page and press `Clone or download`. In the "Clone with SSH" option, copy the repository URL to your clip board. Then, open a terminal and change into the directory you want to store your repository in. Type the following command `$ git clone <GITHUB REPOSITORY URL HERE>`. Now, you can change into the repository and do your usual `git add`, `git commit` and `git push` commands.
 
-### Java<a name="java></a>
+### Java
 
 You should only do these steps if you do not already have Java installed. To see if Java is installed, run `javac -version` in a terminal. If `java version x` is displayed, where `x` starts with `8`, `1.8`, or any higher version, then you do no need to complete the Java steps, as you already have a JDK installed.
 
@@ -76,7 +76,7 @@ $ brew tap caskroom/cask
 $ brew cask install java
 ```
 
-### Gradle<a name="gradle"></a>
+### Gradle
 
 #### Install
 
@@ -88,7 +88,7 @@ $ brew install gradle
 
 Then test if it was installed correctly by running `$ gradle --version`. If `Gradle 4.5.1` is printed (perhaps after a few warning messages about Java), you have completed this step. If not, ask for help.
 
-### GatorGrader dependencies<a name="gatorgrader"></a>
+### GatorGrader dependencies
 
 To run GatorGrader on MacOS, you will need to install Python, gnu-getopt, mdl, and proselint.
 
@@ -114,7 +114,7 @@ $ gem install mdl
 
 If you encounter permission problems, add `sudo` to the beginning of the command and enter your user password (i.e. the password you use to log into your laptop) when prompted.
 
-### Serve<a name="serve"></a>
+### Serve
 
 In 103, you will use a Ruby gem called, "[Serve](https://github.com/jlong/serve)," to serve your website files.
 
