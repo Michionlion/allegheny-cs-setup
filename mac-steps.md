@@ -17,8 +17,6 @@ Please follow the installation instructions for the tools listed under **Everyon
 **CMPSC 103**
 - [Serve](#serve)
 
-Students in CS 111 with macOS should install Homebrew, Git, Java, Gradle, and GatorGrader in that order. Other classes should install the relevant modules that are in use in that class. You will almost always want to install Homebrew.
-
 Do not repeat a step if you have already completed it!
 
 ### Homebrew<a name="homebrew"></a>
