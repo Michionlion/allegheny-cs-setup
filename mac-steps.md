@@ -5,16 +5,19 @@
 Please follow the installation instructions for the tools listed under **Everyone** and your specific computer science course. Make sure to install the tools in the order they are listed.
 
 **Everyone**
+
 - [Homebrew](#homebrew)
 - [Git](#git)
 - [GatorGrader dependencies](#gatorgrader)
 - A text editor of your choice (I recommend [Atom](https://atom.io/))
 
 **CMPSC 111 and CMPSC 112**
+
 - [Java](#java)
 - [Gradle](#gradle)
 
 **CMPSC 103**
+
 - [Serve](#serve)
 
 Do not repeat a step if you have already completed it!
@@ -111,10 +114,9 @@ $ gem install mdl
 
 If you encounter permission problems, add `sudo` to the beginning of the command and enter your user password (i.e. the password you use to log into your laptop) when prompted.
 
-
 ### Serve<a name="serve"></a>
 
-In 103, you will use a Ruby gem called, "[Serve](https://github.com/jlong/serve)," to serve your website files. 
+In 103, you will use a Ruby gem called, "[Serve](https://github.com/jlong/serve)," to serve your website files.
 
 #### Install
 
