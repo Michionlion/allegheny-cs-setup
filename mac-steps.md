@@ -115,6 +115,7 @@ In 103, you will use a Ruby gem called, "[Serve](https://github.com/jlong/serve)
 
 ```
 $ gem install serve
+$ gem install thin
 ```
 
 ### Fin
