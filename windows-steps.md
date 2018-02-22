@@ -2,15 +2,15 @@
 
 ## Department of Computer Science, Allegheny College
 
-To install `Notepad++`, do `NOTEPAD++ STEPS`
+Please follow the installation instructions for the tools listed under **Everyone** and your specific computer science course. Make sure to install the tools in the order they are listed.
 
-To install `Git`, do `GIT STEPS`
+**Everyone**
+- [Git](#GIT-STEPS)
+- A text editor of your choice (I recommend [Notepad++](#notepad-steps))
 
-To install `Java`, do `JAVA STEPS`
-
-To install `Gradle`, do `JAVA STEPS`, then `GRADLE STEPS`
-
-Students in CS111 should install Notepad++, Git, Java, and Gradle in that order. Other classes should install the relevant modules that are in use in that class.
+**CMPSC 111 and CMPSC 112**
+- [Java](#java-steps)
+- [Gradle](#gradle-steps)
 
 ### JAVA STEPS
 
