@@ -2,6 +2,14 @@
 
 ## Department of Computer Science, Allegheny College
 
+Please follow the installation instructions for the tools listed under **Everyone** and your computer science course. 
+
+**Everyone**
+- [Homebrew](#homebrew)
+
+**CMPSC 111 and CMPSC 112**
+- [Homebrew](#homebrew)
+
 To install `Homebrew`, do `HOMEBREW STEPS`
 
 To install `Git`, do `GIT STEPS`
@@ -16,7 +24,7 @@ Students in CS 111 with macOS should install Homebrew, Git, Java, Gradle, and Ga
 
 Do not repeat a step if you have already completed it!
 
-### HOMEBREW STEPS
+### Homebrew<a name="homebrew"></a>
 
 Homebrew is a package manager for macOS. It helps you download programs, such as Gradle, or Ruby.
 
