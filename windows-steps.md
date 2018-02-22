@@ -104,8 +104,8 @@ To test that this step was completed successfully, open a command prompt (search
 
 For any users who want to make the most out of their windows install, you can use the internet to figure out how to install or use the following tools.
 
-* [Windows WSL](https://docs.microsoft.com/en-us/windows/wsl/install-win10), a bash terminal (command-line only) for windows
-* [Cmder](http://cmder.net/), a terminal emulator to make `git bash` and `cmd` work better together; highly configurable
-* [VSCode](https://code.visualstudio.com/), a text/code editor similar to `atom` (`atom` doesn't work well on windows, but you can [try](https://atom.io/) it)
-* [Chocolatey](https://chocolatey.org/), a package manager for windows (like `aptitude` on Ubuntu)
-* [Dual Boot Ubuntu](https://www.lifewire.com/ultimate-windows-8-1-ubuntu-dual-boot-guide-2200654), we recommend Ubuntu 17.10, but any other flavor of Linux works - research before you start, and feel free to ask any questions!
+- [Windows WSL](https://docs.microsoft.com/en-us/windows/wsl/install-win10), a bash terminal (command-line only) for windows
+- [Cmder](http://cmder.net/), a terminal emulator to make `git bash` and `cmd` work better together; highly configurable
+- [VSCode](https://code.visualstudio.com/), a text/code editor similar to `atom` (`atom` doesn't work well on windows, but you can [try](https://atom.io/) it)
+- [Chocolatey](https://chocolatey.org/), a package manager for windows (like `aptitude` on Ubuntu)
+- [Dual Boot Ubuntu](https://www.lifewire.com/ultimate-windows-8-1-ubuntu-dual-boot-guide-2200654), we recommend Ubuntu 17.10, but any other flavor of Linux works - research before you start, and feel free to ask any questions!
