@@ -4,19 +4,19 @@
 
 Please follow the installation instructions for the tools listed under **Everyone** and your specific computer science course. Make sure to install the tools in the order they are listed.
 
-**Everyone**
+##### Everyone
 
 - [Homebrew](#homebrew)
 - [Git](#git)
 - [GatorGrader dependencies](#gatorgrader)
 - A text editor of your choice (I recommend [Atom](https://atom.io/))
 
-**CMPSC 111 and CMPSC 112**
+##### CMPSC 111 and CMPSC 112
 
 - [Java](#java)
 - [Gradle](#gradle)
 
-**CMPSC 103**
+##### CMPSC 103
 
 - [Serve](#serve)
 
