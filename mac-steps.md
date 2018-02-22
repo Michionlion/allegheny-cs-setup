@@ -82,7 +82,7 @@ $ brew install gradle
 
 Then test if it was installed correctly by running `$ gradle --version`. If `Gradle 4.5.1` is printed (perhaps after a few warning messages about Java), you have completed this step. If not, ask for help.
 
-### GATORGRADER Steps
+### GATORGRADER STEPS
 
 To run GatorGrader on MacOS, you will need to install Python, gnu-getopt, mdl, and proselint.
 
@@ -107,6 +107,15 @@ $ gem install mdl
 ```
 
 If you encounter permission problems, try adding `sudo` to the beginning of the command.
+
+
+### SERVE Steps
+
+In 103, you will use a Ruby gem called, "[Serve](https://github.com/jlong/serve)," to serve your website files. To install, run:
+
+```
+$ gem install serve
+```
 
 ### Fin
 
