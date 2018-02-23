@@ -31,7 +31,7 @@ To test that this step was completed successfully, open a command prompt (search
 #### ENVIRONMENT VARIABLES
 
 Right-click on Start, then select "System", then in the upper left of the window that appears select System info (You can also hit the windows key and PAUSE). In the window that appears, select Advanced system settings. In the window that appears choose "Environment Variables" on the bottom right. You can also try searching for "environment". In the window that appears, click "New" below the
-bottom scroll box. Enter JAVA_HOME as the variable name, and browse to where the Java JDK was installed (default: `C:\Program Files\Java\jdk-9`). Select OK. Now find the entry with Variable name "Path" in the lower scroll box. Select it, and
+bottom scroll box. Enter JAVA_HOME as the variable name, and browse to where the Java JDK was installed (default: `C:\Program Files\Java\jdk-9.0.4`). Select OK. Now find the entry with Variable name "Path" in the lower scroll box. Select it, and
 press "Edit". Click "New", and write `%JAVA_HOME%\bin`. Select OK until the windows close. Your changes do not take effect until all the Windows Settings windows are closed.
 
 To test that this step was completed successfully, open a command prompt (search `cmd`), and execute `$ javac -version`. If `javac 9` is printed, you have completed this step. If not, ask for help.
