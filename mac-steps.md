@@ -86,7 +86,7 @@ Run the following command:
 $ brew install gradle
 ```
 
-Then test if it was installed correctly by running `$ gradle --version`. If `Gradle 4.5.1` is printed (perhaps after a few warning messages about Java), you have completed this step. If not, ask for help.
+Then test if it was installed correctly by running `$ gradle --version`. If `Gradle 4.10` is printed (perhaps after a few warning messages about Java), you have completed this step. If not, ask for help.
 
 ### GatorGrader dependencies
 
@@ -104,10 +104,8 @@ $ echo -e 'eval "$(pyenv init -)"\n' >> ~/.bash_profile
 Now you should restart your terminal window (&#8984;Q) and run the following commands:
 
 ```
-$ pyenv install 3.5.4
-$ pyenv global 3.5.4
-$ brew install gnu-getopt
-$ brew link --force gnu-getopt
+$ pyenv install 3.6.3
+$ pyenv global 3.6.3
 $ pip install proselint
 $ gem install mdl
 ```
