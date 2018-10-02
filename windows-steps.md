@@ -99,9 +99,13 @@ Run the following commands in a command prompt window in administrator mode.
 $ choco install gradle -y
 ```
 
+#### CHECK
+
+To test that this step was completed successfully, open a new terminal and type `gradle --version`. If `Gradle 4.10` is printed (perhaps after a few warning messages about Java), you have completed this step. If not, ask for help.
+
 ### GatorGrader
 
-To run GatorGrader on MacOS, you will need to install Python, mdl, and proselint.
+To run GatorGrader on Windows, you will need to install Python, Ruby, mdl, pipenv, and proselint.
 
 #### Install
 
