@@ -2,7 +2,7 @@
 
 ## Department of Computer Science, Allegheny College
 
-Please follow the installation instructions for the tools listed under **Everyone** and your specific computer science course if it exists. Make sure to install the tools in the order they are listed.
+Please follow the installation instructions for the tools listed under **Everyone** and your specific computer science course if it exists. Make sure to install the tools in the order they are listed. ***Do not repeat a step if you have already completed it!***
 
 If you encounter any permission problems, add `sudo` to the beginning of the command and enter your user password (i.e. the password you use to log into your laptop) when prompted.
 
@@ -14,8 +14,6 @@ If you encounter any permission problems, add `sudo` to the beginning of the com
 - [Java](#java)
 - [Gradle](#gradle)
 - [GatorGrader dependencies](#gatorgrader)
-
-Do not repeat a step if you have already completed it!
 
 ### Homebrew
 
