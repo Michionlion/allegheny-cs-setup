@@ -45,7 +45,7 @@ To test that this step was completed successfully, open a new command prompt (se
 
 #### Install
 
-Run the following command in a command prompt window in administrator mode. ***Only do this if you want to use Notepad++***.
+Run the following command in a command prompt window in administrator mode. **Only do this if you want to use Notepad++**.
 
 ```
 $ choco install notepadplusplus -y
@@ -55,7 +55,7 @@ $ choco install notepadplusplus -y
 
 #### Install
 
-Run the following command in a command prompt window in administrator mode. ***Only do this if you want to use Atom***.
+Run the following command in a command prompt window in administrator mode. **Only do this if you want to use Atom**.
 
 ```
 $ choco install atom -y
