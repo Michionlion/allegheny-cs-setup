@@ -133,6 +133,6 @@ For any users who want to make the most out of their windows install, you can us
 - [Cmder](http://cmder.net/), a terminal emulator to make `cmd` and `powershell` work better together; highly configurable
 - [Dual Boot Ubuntu](https://www.lifewire.com/ultimate-windows-8-1-ubuntu-dual-boot-guide-2200654), we recommend Ubuntu 18.04, but any other flavor of Linux works - research before you start, and feel free to ask any questions!
 
-### UNINSTALLATION
+### Uninstallation
 
 If in the future you wish to uninstall anything you installed today, you can use the `choco uninstall <name>` command in an administrator terminal to uninstall the given package that you installed with chocolatey. This will render you unable to use those tools.
