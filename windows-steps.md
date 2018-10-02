@@ -111,7 +111,7 @@ To test that this step was completed successfully, open a new terminal and type 
 
 ### GatorGrader
 
-To run GatorGrader on Windows, you will need to install Python, Ruby, mdl, pipenv, and proselint.
+To run GatorGrader on Windows, you will need to install Python, Ruby, mdl, Pipenv, and proselint.
 
 #### Install
 
