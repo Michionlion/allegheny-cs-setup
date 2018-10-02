@@ -8,10 +8,10 @@ Please follow the installation instructions for the tools listed under **Everyon
 
 - [Homebrew](#homebrew)
 - [Git](#git)
-- [GatorGrader dependencies](#gatorgrader)
 - A text editor of your choice (I recommend [Atom](https://atom.io/))
 - [Java](#java)
 - [Gradle](#gradle)
+- [GatorGrader dependencies](#gatorgrader)
 
 Do not repeat a step if you have already completed it!
 
