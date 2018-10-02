@@ -33,7 +33,7 @@ $ choco install jdk8 -y
 
 #### CHECK
 
-To test that this step was completed successfully, open a new command prompt (search `cmd`), and execute `java --version`. If `java version "9"` is printed (perhaps along with some other stuff), you have completed this step. If not, ask for help.
+To test that this step was completed successfully, open a new command prompt (search `cmd`), and execute `java --version`. If `java version "8"` is printed (perhaps along with some other stuff), you have completed this step. If not, ask for help.
 
 ### NOTEPAD++
 
@@ -122,7 +122,7 @@ $ gem install mdl
 
 ### END
 
-You've now installed all the nessescarry tools for basic lab completion in CS100 and 101, and can probably fudge together another few if needed for more advanced classes. If you get an error when you are trying to use these tools, first try Googling the error. Chances are that you are not the first person to encounter the issue and someone has already asked how to solve it on StackOverflow or the GitHub issue tracker. If you are still stuck, feel free to send Saejin a message on Slack, or email us at my school email (`mahlauheinerts@allegheny.edu`) if we are not part of any of your Slack teams. Any CS Teaching Assistant should also be able to help.
+You've now installed all the necessary tools for basic lab completion in CS100 and 101, and can probably fudge together another few if needed for more advanced classes. If you get an error when you are trying to use these tools, first try Googling the error. Chances are that you are not the first person to encounter the issue and someone has already asked how to solve it on StackOverflow or the GitHub issue tracker. If you are still stuck, feel free to send Saejin a message on Slack, or email us at my school email (`mahlauheinerts@allegheny.edu`) if we are not part of any of your Slack teams. Any CS Teaching Assistant should also be able to help.
 
 ### ADVANCED SETUP
 
