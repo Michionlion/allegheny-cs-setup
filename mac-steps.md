@@ -4,6 +4,8 @@
 
 Please follow the installation instructions for the tools listed under **Everyone** and your specific computer science course if it exists. Make sure to install the tools in the order they are listed.
 
+If you encounter any permission problems, add `sudo` to the beginning of the command and enter your user password (i.e. the password you use to log into your laptop) when prompted.
+
 ### Everyone
 
 - [Homebrew](#homebrew)
@@ -104,8 +106,6 @@ $ pip install proselint
 $ pip install pipenv
 $ gem install mdl
 ```
-
-If you encounter permission problems, add `sudo` to the beginning of the command and enter your user password (i.e. the password you use to log into your laptop) when prompted.
 
 ### End
 
