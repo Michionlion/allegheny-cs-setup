@@ -15,11 +15,17 @@ Please follow the installation instructions for the tools listed under **Everyon
 
 ### Chocolatey
 
+#### Install
+
 Open a command prompt window in administrator mode. To do this, search for "cmd" in the start menu, then right-click and select "Run as Administrator". Then, copy and paste the following command (without the starting `$`) into that terminal, and hit `enter`.
 
 ```
 $ @"%SystemRoot%\System32\WindowsPowerShell\v1.0\powershell.exe" -NoProfile -InputFormat None -ExecutionPolicy Bypass -Command "iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))" && SET "PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin"
 ```
+
+#### Check
+
+To test that this step was completed successfully, open a new command prompt (search `cmd`), and execute `choco --version`. If `0.10.11` is printed (or some other higher version), you have completed this step. If not, ask for help.
 
 ### Java
 
