@@ -21,9 +21,9 @@ Open a command prompt window in administrator mode. To do this, search for "cmd"
 $ @"%SystemRoot%\System32\WindowsPowerShell\v1.0\powershell.exe" -NoProfile -InputFormat None -ExecutionPolicy Bypass -Command "iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))" && SET "PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin"
 ```
 
-### JAVA
+### Java
 
-#### INSTALL
+#### Install
 
 Run the following command in a command prompt window in administrator mode.
 
@@ -31,13 +31,13 @@ Run the following command in a command prompt window in administrator mode.
 $ choco install jdk8 -y
 ```
 
-#### CHECK
+#### Check
 
 To test that this step was completed successfully, open a new command prompt (search `cmd`), and execute `java --version`. If `java version "8"` is printed (perhaps along with some other stuff), you have completed this step. If not, ask for help.
 
 ### NOTEPAD++
 
-#### INSTALL
+#### Install
 
 Run the following command in a command prompt window in administrator mode. ***Only do this if you want to use Notepad++***.
 
@@ -47,7 +47,7 @@ $ choco install notepadplusplus -y
 
 ### Atom
 
-#### INSTALL
+#### Install
 
 Run the following command in a command prompt window in administrator mode. ***Only do this if you want to use Atom***.
 
@@ -55,9 +55,9 @@ Run the following command in a command prompt window in administrator mode. ***O
 $ choco install atom -y
 ```
 
-### GIT
+### Git
 
-#### INSTALL
+#### Install
 
 Run the following commands in a command prompt window in administrator mode.
 
@@ -67,7 +67,7 @@ For advanced users, you may wish to visit the [git package docs](https://chocola
 $ choco install git -y --params "/GitAndUnixToolsOnPath /WindowsTerminal /NoShellIntegration"
 ```
 
-#### CHECK
+#### Check
 
 To test that this step was completed successfully, open a new terminal and type `git --version`. If `git version` followed by some version number is printed (or something similar), you have completed this step. If not, ask for help.
 
@@ -89,9 +89,9 @@ Click on your profile icon in the lower left, and select "Bitbucket settings". O
 
 Click on your profile icon in the upper right, then select "Settings". On the left sidebar, select "SSH and GPG keys". Click on "New SSH key".
 
-### GRADLE
+### Gradle
 
-#### INSTALL
+#### Install
 
 Run the following commands in a command prompt window in administrator mode.
 
@@ -99,7 +99,7 @@ Run the following commands in a command prompt window in administrator mode.
 $ choco install gradle -y
 ```
 
-#### CHECK
+#### Check
 
 To test that this step was completed successfully, open a new terminal and type `gradle --version`. If `Gradle 4.10` is printed (perhaps after a few warning messages about Java), you have completed this step. If not, ask for help.
 
@@ -124,11 +124,9 @@ $ pip install pipenv
 $ gem install mdl
 ```
 
-### END
+### End
 
 You've now installed all the necessary tools for basic lab completion in CS100 and 101, and can probably fudge together another few if needed for more advanced classes. If you get an error when you are trying to use these tools, first try Googling the error. Chances are that you are not the first person to encounter the issue and someone has already asked how to solve it on StackOverflow or the GitHub issue tracker. If you are still stuck, feel free to send Saejin a message on Slack, or email us at my school email (`mahlauheinerts@allegheny.edu`) if we are not part of any of your Slack teams. Any CS Teaching Assistant should also be able to help.
-
-### ADVANCED SETUP
 
 For any users who want to make the most out of their windows install, you can use the internet to figure out how to install or use the following tools. These are purely optional (and sometimes not even recommended), but using [Chocolatey](https://chocolatey.org/packages) can make your lives much, much easier!
 
