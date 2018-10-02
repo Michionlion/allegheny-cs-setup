@@ -131,6 +131,10 @@ $ pip install pipenv
 $ gem install mdl
 ```
 
+#### Notes
+
+GatorGradle is fairly untested on Windows, and so may exhibit bugs or otherwise not correctly work. If you encounter any issues, please raise an issue on the GatorGradle [issue tracker](https://github.com/GatorEducator/gatorgradle/issues)!
+
 ### End
 
 You've now installed all the necessary tools for basic lab completion in CS100 and 101, and can probably fudge together another few if needed for more advanced classes. If you get an error when you are trying to use these tools, first try Googling the error. Chances are that you are not the first person to encounter the issue and someone has already asked how to solve it on StackOverflow or the GitHub issue tracker. If you are still stuck, feel free to send Saejin a message on Slack, or email us at my school email (`mahlauheinerts@allegheny.edu`) if we are not part of any of your Slack teams. Any CS Teaching Assistant should also be able to help.
