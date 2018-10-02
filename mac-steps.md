@@ -50,7 +50,7 @@ $ ssh-keygen -t rsa -b 4096 -C "your_email_used_to_create_github_account@example
 
 Do not enter a file name, instead press enter when prompted to enter the file in which to save the key. Press enter twice more when it says to enter a passphrase. This will take the default values.
 
-Then, run the command `$ cat ~/.ssh/id_rsa.pub`. This should display your public SSH key. Copy to your clipboard from the `ssh-rsa` to the last letter of your email or machine name at the end. Go to `github.com` and navigate to (upper right hand corner) `Settings > SSH and GPG keys` and press the `New SSH key` button. Give your new SSH key a cool title (e.g. "Maria's Macbook") and paste from your clipboard the SSH key you just copied. Then, press `Add SSH key`.
+Then, run the command `cat ~/.ssh/id_rsa.pub`. This should display your public SSH key. Copy to your clipboard from the `ssh-rsa` to the last letter of your email or machine name at the end. Go to `github.com` and navigate to (upper right hand corner) `Settings > SSH and GPG keys` and press the `New SSH key` button. Give your new SSH key a cool title (e.g. "Maria's Macbook") and paste from your clipboard the SSH key you just copied. Then, press `Add SSH key`.
 
 ##### Accessing a Git repository
 
@@ -79,7 +79,7 @@ Run the following command:
 $ brew install gradle
 ```
 
-Then test if it was installed correctly by running `$ gradle --version`. If `Gradle 4.10` is printed (perhaps after a few warning messages about Java), you have completed this step. If not, ask for help.
+Then test if it was installed correctly by running `gradle --version`. If `Gradle 4.10` is printed (perhaps after a few warning messages about Java), you have completed this step. If not, ask for help.
 
 ### GatorGrader
 
