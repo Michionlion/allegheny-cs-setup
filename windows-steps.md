@@ -109,11 +109,12 @@ To run GatorGrader on Windows, you will need to install Python, Ruby, mdl, pipen
 
 #### Install
 
-Run the following commands in a command prompt window in administrator mode.
+Run the following commands in a command prompt window in administrator mode. A small note, however: if you run the last command (`mklink`) and get something like "No directory found", run `where python` to find what should replace `C:\Python36`; note that the printed directory will include `\python.exe` which you should not include. The goal is to create a link named `python3.exe` that points to `python.exe` in the installation directory. If you have any trouble with this step let a TA know!
 
 ```
 $ choco install python -y --version 3.6.3
 $ choco install ruby -y
+$ mklink "C:\Python36\python3.exe" "C:\Python36\python.exe"
 ```
 
 Now you should close and reopen another administrator teminal window and run the following commands:
