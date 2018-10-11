@@ -83,7 +83,7 @@ Then test if it was installed correctly by running `gradle --version`. If `Gradl
 
 ### GatorGrader
 
-To run GatorGrader on MacOS, you will need to install Python, mdl, and proselint.
+To run GatorGrader on MacOS, you will need to install Python, Pipenv, proselint, mdl.
 
 #### Install
 
