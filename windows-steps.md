@@ -27,19 +27,21 @@ $ @"%SystemRoot%\System32\WindowsPowerShell\v1.0\powershell.exe" -NoProfile -Inp
 
 To test that this step was completed successfully, open a new command prompt (search `cmd`), and execute `choco --version`. If `0.10.11` is printed (or some other higher version), you have completed this step. If not, ask for help.
 
-### Java
+### Git
 
 #### Install
 
-Run the following command in a command prompt window in administrator mode.
+Run the following commands in a command prompt window in administrator mode.
+
+For advanced users, you may wish to visit the [git package docs](https://chocolatey.org/packages/git) and check out what other params you can add, for your custom installation.
 
 ```
-$ choco install jdk8 -y
+$ choco install git -y --params "/GitAndUnixToolsOnPath /WindowsTerminal /NoShellIntegration"
 ```
 
 #### Check
 
-To test that this step was completed successfully, open a new command prompt (search `cmd`), and execute `java --version`. If `java version "8"` is printed (perhaps along with some other stuff), you have completed this step. If not, ask for help.
+To test that this step was completed successfully, open a new terminal and type `git --version`. If `git version` followed by some version number is printed (or something similar), you have completed this step. If not, ask for help.
 
 ### NOTEPAD++
 
@@ -61,21 +63,19 @@ Run the following command in a command prompt window in administrator mode. **On
 $ choco install atom -y
 ```
 
-### Git
+### Java
 
 #### Install
 
-Run the following commands in a command prompt window in administrator mode.
-
-For advanced users, you may wish to visit the [git package docs](https://chocolatey.org/packages/git) and check out what other params you can add, for your custom installation.
+Run the following command in a command prompt window in administrator mode.
 
 ```
-$ choco install git -y --params "/GitAndUnixToolsOnPath /WindowsTerminal /NoShellIntegration"
+$ choco install jdk8 -y
 ```
 
 #### Check
 
-To test that this step was completed successfully, open a new terminal and type `git --version`. If `git version` followed by some version number is printed (or something similar), you have completed this step. If not, ask for help.
+To test that this step was completed successfully, open a new command prompt (search `cmd`), and execute `java --version`. If `java version "8"` is printed (perhaps along with some other stuff), you have completed this step. If not, ask for help.
 
 #### SSH Key
 
