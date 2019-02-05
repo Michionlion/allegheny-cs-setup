@@ -121,8 +121,8 @@ $ echo -e 'eval "$(pyenv init -)"\n' >> ~/.bash_profile
 Now you should restart your terminal window (&#8984;Q) and run the following commands:
 
 ```
-$ pyenv install 3.6.3
-$ pyenv global 3.6.3
+$ pyenv install 3.6.7
+$ pyenv global 3.6.7
 $ pip install --upgrade pip
 $ pip install proselint
 $ pip install pipenv
