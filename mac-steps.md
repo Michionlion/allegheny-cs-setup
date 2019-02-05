@@ -8,12 +8,36 @@ If you encounter any permission problems, add `sudo` to the beginning of the com
 
 ### Everyone
 
+- [Xcode](#xcode)
 - [Homebrew](#homebrew)
 - [Git](#git)
 - A text editor of your choice (I recommend [Atom](https://atom.io/))
 - [Java](#java)
 - [Gradle](#gradle)
 - [GatorGrader dependencies](#gatorgrader)
+
+### Xcode
+
+Xcode allows compiliation and running of programs like Homebrew and many others on Mac. It is a
+requirement for installing Python.
+
+#### Install
+
+Run the following command in your terminal window. If something is printed about xcode already
+being installed, then you do not need to do anything, and should continue to the libraries
+header below.
+
+```
+$ xcode-select --install
+```
+
+##### Libraries
+
+Run the following command to install `zlib`. This is only needed on MacOS Mojave 10.14 and above.
+
+```
+$ sudo installer -pkg /Library/Developer/CommandLineTools/Packages/macOS_SDK_headers_for_macOS_10.14.pkg -target /
+```
 
 ### Homebrew
 
@@ -79,7 +103,7 @@ Run the following command:
 $ brew install gradle
 ```
 
-Then test if it was installed correctly by running `gradle --version`. If `Gradle 4.10` is printed (perhaps after a few warning messages about Java), you have completed this step. If not, ask for help.
+Then test if it was installed correctly by running `gradle --version`. If `Gradle 5` is printed, or something that looks similar (`Gradle` followed by a version number), you have completed this step. If not, ask for help.
 
 ### GatorGrader
 
