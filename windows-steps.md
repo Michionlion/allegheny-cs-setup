@@ -75,7 +75,7 @@ $ choco install jdk8 -y
 
 #### Check
 
-To test that this step was completed successfully, open a new command prompt (search `cmd`), and execute `java --version`. If `java version "8"` is printed (perhaps along with some other stuff), you have completed this step. If not, ask for help.
+To test that this step was completed successfully, open a new command prompt (search `cmd`), and execute `java -version`. If `java version "8"` is printed (perhaps along with some other stuff), you have completed this step. If not, ask for help.
 
 #### SSH Key
 
